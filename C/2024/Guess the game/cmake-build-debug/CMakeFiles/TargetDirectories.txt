@@ -1,0 +1,3 @@
+C:/Users/elifb/OneDrive/Dokumente/GitHub/Blj2024-eli-can/C/2024/Guess the game/cmake-build-debug/CMakeFiles/Guess_the_game.dir
+C:/Users/elifb/OneDrive/Dokumente/GitHub/Blj2024-eli-can/C/2024/Guess the game/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/elifb/OneDrive/Dokumente/GitHub/Blj2024-eli-can/C/2024/Guess the game/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,10 @@
+# ninja log v6
+20	82	7479134616149601	CMakeFiles/Guess_the_game.dir/main.c.obj	74f09fc0f4f65eaf
+83	150	7479134616775308	Guess_the_game.exe	fef29ba7d982a26e
+15	95	7490344936216753	CMakeFiles/Guess_the_game.dir/main.c.obj	1c2027e7b0cf26f
+96	209	7490344937027679	Guess_the_game.exe	fef29ba7d982a26e
+4	77	7490346362349092	CMakeFiles/Guess_the_game.dir/main.c.obj	1c2027e7b0cf26f
+78	164	7490346363091660	Guess_the_game.exe	fef29ba7d982a26e
+72	192	7490519175057083	CMakeFiles/Guess_the_game.dir/main.c.obj	1c2027e7b0cf26f
+22	136	7490519343383424	CMakeFiles/Guess_the_game.dir/main.c.obj	1c2027e7b0cf26f
+137	253	7490519344528749	Guess_the_game.exe	fef29ba7d982a26e
