@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    overflow: hidden;
 
 }
 body{
@@ -34,7 +35,7 @@ transition: 0.5s;
 a:hover{
     background: var(--clr);
     letter-spacing: 0.25em;
-    box-shadow: 0 0 90px var(--clr);
+    box-shadow: 0 0 30px var(--clr);
     color: var(--clr);
     
 }
@@ -68,4 +69,45 @@ a i::before{
 a:hover i::after{
 width: 20px;
 height: 20%;
+}
+h2{
+    position: absolute;
+    background-color:whitesmoke;
+    top:20vh;
+    width: 200vh;
+    height: 90vh;
+    font-size: 10vh;
+    text-align: center;
+}
+.container{
+
+    overflow: scroll;
+    scroll-snap-type: y mandatory;
+
+}
+.panel{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    scroll-snap-align: start;
+    top: 20vh;
+    left: 0vh;
+}
+.panel.orange{
+    background-color: orange;
+    position: absolute;
+    align-items: center;
+}
+.panel p{
+    font-size: 32px;
+    color: whitesmoke;
+}
+.panel.violet{
+    margin-top: 50vh;
+    height: 100%;
+    width: 100%;   
+    position: absolute;
+    background-color: whitesmoke;
 }

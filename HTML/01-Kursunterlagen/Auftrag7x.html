@@ -6,6 +6,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>TheHappyWebsite</title>
   <link rel="stylesheet" href="Auftrag7x.css">
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
 
 
 
@@ -17,11 +20,52 @@
  
  
 <body>
+
+<div class="container">
+
+<section class="panel orange">
+  <p>This elemt will spin</p>
+</section>
+<section class="panel violet">
+  <p>This background will change</p>
+</section>
+
+</div>
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     <a href="#" style="--clr:#1e9bff"><span>About me</span><i></i></a>
     <a href="#" style="--clr:#1e9bff"><span>This Site</span><i></i></a>
     <a href="#" style="--clr:#1e9bff"><span>Impressum</span><i></i></a>
-
-
+ 
+ <script>
+  // use a script tag or an external JS file
+  document.addEventListener("DOMContentLoaded", (event) => {
+   gsap.registerPlugin(ScrollTrigger)
+   // gsap code here!
+  });
+ 
+ </script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+<script src="Auftrag7x.js"></script>
 </body>
 
 </html>
