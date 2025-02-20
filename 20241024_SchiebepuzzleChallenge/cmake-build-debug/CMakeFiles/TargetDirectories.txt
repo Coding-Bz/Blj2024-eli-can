@@ -1,0 +1,3 @@
+C:/Blj2024-eli-can/20241024_SchiebepuzzleChallenge/cmake-build-debug/CMakeFiles/20241024_SchiebepuzzleChallenge.dir
+C:/Blj2024-eli-can/20241024_SchiebepuzzleChallenge/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Blj2024-eli-can/20241024_SchiebepuzzleChallenge/cmake-build-debug/CMakeFiles/rebuild_cache.dir
