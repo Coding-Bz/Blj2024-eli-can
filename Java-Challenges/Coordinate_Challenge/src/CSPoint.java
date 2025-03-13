@@ -1,6 +1,6 @@
 public class CSPoint extends java.awt.Point {
 
-int ID;
+
 
 private  static int nextId=1;
 private int id;
