@@ -1,26 +1,23 @@
 import java.io.*;
-import java.util.ArrayList;
-import java.util.Arrays;
+import java.util.*;
+
 
 public class fileArray {
 
-
     public static ArrayList fileArray() throws IOException {
 
-
-
-        File file = new File("C:\\Blj2024-eli-can\\Java-Challenges\\Wordly\\src\\wordlist.txt");
+        File file = new File("src\\wordlist.txt");
         BufferedReader br = new BufferedReader(new FileReader(file));
-        String lt="";
-        String line;
+        String wordList="";
+        String theWord;
 
 
-        while ((line = br.readLine()) != null) {
-            lt = lt + line+" " ;
+        while ((theWord = br.readLine()) != null) {
+            wordList = wordList + theWord+" " ;
 
         }
 
-        return Generator.essaycontroll(lt);
+        return Generator.essaycontroll(wordList);
     }
 
 
