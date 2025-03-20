@@ -17,6 +17,7 @@ public class Main {
             st = st + line;
 
         }
+
         ArrayList<String> words =  Creating_a_list_of_words.essaycontroll(st);
         System.out.println(words.size());
         System.out.println(words);
