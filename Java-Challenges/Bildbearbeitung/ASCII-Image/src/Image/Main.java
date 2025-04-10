@@ -14,7 +14,7 @@ public class Main {
 ColorPicker pick=new ColorPicker();
         ArrayList<String> height=new ArrayList<>();
         ArrayList<String> width=new ArrayList<>();
-       File file = new File("C:\\Blj2024-eli-can\\Java-Challenges\\Bildbearbeitung\\ASCII-Image\\src\\Image\\IceCream.jpg");
+       File file = new File("C:\\Blj2024-eli-can\\Java-Challenges\\Bildbearbeitung\\ASCII-Image\\src\\Image\\Rainbow.jpeg");
         ArrayList<Integer> i= pick.getSize();
         System.out.println(i);
         ASCIIPicker imageCreator=new ASCIIPicker();

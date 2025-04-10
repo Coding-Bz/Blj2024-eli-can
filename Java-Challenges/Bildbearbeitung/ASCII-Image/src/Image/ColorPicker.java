@@ -20,7 +20,7 @@ public ColorPicker(ArrayList <Integer> size){
 
 
     public ArrayList<Integer>  pickerColor(File file, ArrayList<String> height, ArrayList<String> width) {
-        char[][] realImage=new char[1013][1013];
+        char[][] realImage=new char[478][850];
         try {
 
             BufferedImage image = ImageIO.read(file);
@@ -38,67 +38,57 @@ public ColorPicker(ArrayList <Integer> size){
                         width.add(",");
                     }
 
-
-
-                    double value = Math.sqrt(r * r * 0.299 + g * g * 0.587 + b * b * 0.114);
-                    int myValue=(int)value/26;
+                    int myValue=(int)Math.sqrt(r * r * 0.299 + g * g * 0.587 + b * b * 0.114)/26;
 
                     switch (myValue) {
                         case 0:{
-                            realImage[x][y]='@';
+                            realImage[y][x]='@';
                         }
 
                         case 1:{
-                            realImage[x][y]='%';
+                            realImage[y][x]='%';
                             break;
                         }
                         case 2:{
-                            realImage[x][y]='#';
+                            realImage[y][x]='#';
                             break;
                         }
                         case 3:{
-                            realImage[x][y]='#';
+                            realImage[y][x]='#';
                             break;
                         }
                         case 4:{
-                            realImage[x][y]='*';
+                            realImage[y][x]='*';
                             break;
                         }
                         case 5:{
-                            realImage[x][y]='=';
+                            realImage[y][x]='=';
                             break;
                         }
                         case 6:{
-                            realImage[x][y]='-';
+                            realImage[y][x]='-';
                         }
-                        case 7:{
-                            realImage[x][y]=':';
+                        case 7: {
+                            realImage[y][x]=':';
                             break;
                         }
 
                         case 8:{
-                            realImage[x][y]='.';
+                            realImage[y][x]='.';
                             break;
                         }
 
                         case 9:{
-                            realImage[x][y]='"';
+                            realImage[y][x]='"';
                             break;
                         }
-                    }
 
 
-
-                    size.add((int) value);
-
-
-                    for (int i=0; i<realImage.length;i++){
-                        System.out.println();
-                        for (int j=0; j<realImage[0].length; j++){
-
-                            System.out.print(realImage[i][j]);
+                        default:{
+                            realImage[y][x]='"';
                         }
                     }
+
 
                 }
 
@@ -113,6 +103,13 @@ public ColorPicker(ArrayList <Integer> size){
         }
 
 
+        for (int i=0; i<realImage.length;i++){
+            for (int j=0; j<realImage[0].length; j++){
+
+                System.out.print(realImage[i][j]);
+            }
+            System.out.println();
+        }
         this.size=size;
         return size;
 
