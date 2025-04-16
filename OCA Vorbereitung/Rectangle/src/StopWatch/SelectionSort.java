@@ -26,8 +26,6 @@ double temp;
                myArray[i]=temp;
            }
 
-
-
         }}
         System.out.println(Arrays.toString(myArray));
 
