@@ -32,13 +32,6 @@ public class VehicleRentalManager {
 
     }
 
-    public Contract createContract(Person person, Vehicle vehicle){
-LocalDate startDate= LocalDate.now();
-LocalDate endDate= startDate.plusMonths(6);
-Contract contract=new Contract(person,vehicle, startDate, endDate, vehicle);
-contracts.add(contract);
-return contract;
-    }
 
 
 
