@@ -9,12 +9,16 @@ Scanner sc=new Scanner(System.in);
 
 private LocalDate birthYear;
 private boolean denylisted;
-private int age;
+private String adress;
+private String name;
 
-public  Person(LocalDate birthYear, boolean denylisted, int age){
-this.denylisted=denylisted;
+
+public  Person(LocalDate birthYear, boolean denylisted, String adress, String name){
     this.birthYear=birthYear;
-    this.age=age;
+this.denylisted=denylisted;
+    this.adress=adress;
+    this.name=name;
+
 }
 
 
@@ -61,5 +65,35 @@ public int getAge(){
         return denylisted;
     }
 
+    public String getAdress() {
+        return adress;
+    }
 
+    public void setAdress(String adress) {
+        this.adress = adress;
+    }
+
+    public boolean isDenylisted() {
+        return denylisted;
+    }
+
+    public void setDenylisted(boolean denylisted) {
+        this.denylisted = denylisted;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public Scanner getSc() {
+        return sc;
+    }
+
+    public void setSc(Scanner sc) {
+        this.sc = sc;
+    }
 }

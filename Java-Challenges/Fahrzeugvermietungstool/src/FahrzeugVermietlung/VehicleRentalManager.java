@@ -31,7 +31,61 @@ public class VehicleRentalManager {
         customerList.remove(Person);
 
     }
+public void createContract(Person person, Vehicle vehicle, String conditions, LocalDate startdate, LocalDate endDate)
 
+throws MinorAgeException, DenylistedPersonException, LeaseLengthException {
+
+        if (denylist.contains(person)){
+            throw new DenylistedPersonException("Nuh uh 🥶"); }
+
+        if (person.getAge()<18){
+            throw new MinorAgeException("Your a minnnoooorrr 🤡");
+        }
+Contract newContract=new Contract(person,vehicle,startdate,endDate,conditions);
+
+
+
+
+
+}
+
+    public ArrayList<Contract> getContracts() {
+        return contracts;
+    }
+
+    public void setContracts(ArrayList<Contract> contracts) {
+        this.contracts = contracts;
+    }
+
+    public ArrayList<Person> getCustomerList() {
+        return customerList;
+    }
+
+    public void setCustomerList(ArrayList<Person> customerList) {
+        this.customerList = customerList;
+    }
+
+    public ArrayList<Person> getDenylist() {
+        return denylist;
+    }
+
+    public void setDenylist(ArrayList<Person> denylist) {
+        this.denylist = denylist;
+    }
+
+    public ArrayList<Vehicle> getVehicles() {
+        return vehicles;
+    }
+
+    public void setVehicles(ArrayList<Vehicle> vehicles) {
+        this.vehicles = vehicles;
+    }
+
+    public void checkLeap(){
+
+
+
+}
 
 
 

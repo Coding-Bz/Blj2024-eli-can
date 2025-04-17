@@ -10,7 +10,7 @@ public class Contract {
     private LocalDate startdate;
     private LocalDate endDate;
 
-    public Contract(Person person, Vehicle vehicle, LocalDate startdate, LocalDate endDate){
+    public Contract(Person person, Vehicle vehicle, LocalDate startdate, LocalDate endDate, String conditions){
         this.person=person;
         this.vehicle=vehicle;
         this.conditions=conditions;
