@@ -36,10 +36,10 @@ public void createContract(Person person, Vehicle vehicle, String conditions, Lo
 throws MinorAgeException, DenylistedPersonException, LeaseLengthException {
 
         if (denylist.contains(person)){
-            throw new DenylistedPersonException("Nuh uh 🥶"); }
+            throw new DenylistedPersonException("You are in the denylist"); }
 
         if (person.getAge()<18){
-            throw new MinorAgeException("Your a minnnoooorrr 🤡");
+            throw new MinorAgeException("Your a minor");
         }
 Contract newContract=new Contract(person,vehicle,startdate,endDate,conditions);
 
