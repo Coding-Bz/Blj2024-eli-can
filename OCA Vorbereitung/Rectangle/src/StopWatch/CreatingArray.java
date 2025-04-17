@@ -15,8 +15,8 @@ public class CreatingArray {
 
 
 
-    public double[] generatingArray(){
-
+    public double[] generatingArray(int n){
+      double[]Array=new double[n];
         for (int i=0; i< Array.length; i++){
             Array[i]=Math.random()*1000;
         }

@@ -1,19 +1,20 @@
 package StopWatch;
 
 import java.util.Arrays;
+import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args){
 
-
+        Scanner sc=new Scanner(System.in);
 
 CreatingArray create=new CreatingArray();
 SelectionSort selecting=new SelectionSort();
 StopWatch base=new StopWatch();
 
-
-
-create.setArray(create.generatingArray());
+        System.out.println("What should the Array Size be?");
+int n=sc.nextInt();
+create.setArray(create.generatingArray(n));
 
 
 System.out.println("The starttime is: "+base.start());
