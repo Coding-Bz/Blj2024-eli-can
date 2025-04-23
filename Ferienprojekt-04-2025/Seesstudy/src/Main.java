@@ -1,18 +1,29 @@
 import java.sql.SQLException;
 import java.time.LocalTime;
+import javafx.application.Application;
+import javafx.fxml.FXMLLoader;
+import javafx.scene.Parent;
+import javafx.scene.Scene;
+import javafx.stage.Stage;
+
+
 
 public class Main {
     public static void main(String[] args) throws ReachedMaxTiemException, SQLException {
-       Start newStart=new Start();
-       End independentEnd=new End();
+
+
+
+
+
 OptionSite os=new OptionSite();
 FunctionUserPage fb=new FunctionUserPage();
 
 os.OptionFirst();
-fb.FunctionUserPage();
-newStart.setTime(LocalTime.now());
+fb.FunctionUserPageUsage();
+fb.settingInfostime();
 
-System.out.println("The whole process took "+independentEnd.calculateTime(newStart.getTime()).toMillis()+" milliseconds");
+
+
 
 
 

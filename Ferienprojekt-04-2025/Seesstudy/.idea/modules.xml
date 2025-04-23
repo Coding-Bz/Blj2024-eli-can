@@ -3,6 +3,16 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Seesstudy.iml" filepath="$PROJECT_DIR$/Seesstudy.iml" />
+      <module fileurl="file://$USER_HOME$/Downloads/openjfx-24.0.1_windows-x64_bin-sdk/javafx-sdk-24.0.1/src/javafx.base/javafx.base.iml" filepath="$USER_HOME$/Downloads/openjfx-24.0.1_windows-x64_bin-sdk/javafx-sdk-24.0.1/src/javafx.base/javafx.base.iml" />
+      <module fileurl="file://$USER_HOME$/Downloads/openjfx-24.0.1_windows-x64_bin-sdk/javafx-sdk-24.0.1/src/javafx.controls/javafx.controls.iml" filepath="$USER_HOME$/Downloads/openjfx-24.0.1_windows-x64_bin-sdk/javafx-sdk-24.0.1/src/javafx.controls/javafx.controls.iml" />
+      <module fileurl="file://$USER_HOME$/Downloads/openjfx-24.0.1_windows-x64_bin-sdk/javafx-sdk-24.0.1/src/javafx.fxml/javafx.fxml.iml" filepath="$USER_HOME$/Downloads/openjfx-24.0.1_windows-x64_bin-sdk/javafx-sdk-24.0.1/src/javafx.fxml/javafx.fxml.iml" />
+      <module fileurl="file://$USER_HOME$/Downloads/openjfx-24.0.1_windows-x64_bin-sdk/javafx-sdk-24.0.1/src/javafx.graphics/javafx.graphics.iml" filepath="$USER_HOME$/Downloads/openjfx-24.0.1_windows-x64_bin-sdk/javafx-sdk-24.0.1/src/javafx.graphics/javafx.graphics.iml" />
+      <module fileurl="file://$USER_HOME$/Downloads/openjfx-24.0.1_windows-x64_bin-sdk/javafx-sdk-24.0.1/src/javafx.media/javafx.media.iml" filepath="$USER_HOME$/Downloads/openjfx-24.0.1_windows-x64_bin-sdk/javafx-sdk-24.0.1/src/javafx.media/javafx.media.iml" />
+      <module fileurl="file://$USER_HOME$/Downloads/openjfx-24.0.1_windows-x64_bin-sdk/javafx-sdk-24.0.1/src/javafx.swing/javafx.swing.iml" filepath="$USER_HOME$/Downloads/openjfx-24.0.1_windows-x64_bin-sdk/javafx-sdk-24.0.1/src/javafx.swing/javafx.swing.iml" />
+      <module fileurl="file://$USER_HOME$/Downloads/openjfx-24.0.1_windows-x64_bin-sdk/javafx-sdk-24.0.1/src/javafx.web/javafx.web.iml" filepath="$USER_HOME$/Downloads/openjfx-24.0.1_windows-x64_bin-sdk/javafx-sdk-24.0.1/src/javafx.web/javafx.web.iml" />
+      <module fileurl="file://$USER_HOME$/Downloads/openjfx-24.0.1_windows-x64_bin-sdk/javafx-sdk-24.0.1/src/jdk.jsobject/jdk.jsobject.iml" filepath="$USER_HOME$/Downloads/openjfx-24.0.1_windows-x64_bin-sdk/javafx-sdk-24.0.1/src/jdk.jsobject/jdk.jsobject.iml" />
+      <module fileurl="file://$USER_HOME$/Downloads/openjfx-24.0.1_windows-x64_bin-sdk/javafx-sdk-24.0.1/src/jfx.incubator.input/jfx.incubator.input.iml" filepath="$USER_HOME$/Downloads/openjfx-24.0.1_windows-x64_bin-sdk/javafx-sdk-24.0.1/src/jfx.incubator.input/jfx.incubator.input.iml" />
+      <module fileurl="file://$USER_HOME$/Downloads/openjfx-24.0.1_windows-x64_bin-sdk/javafx-sdk-24.0.1/src/jfx.incubator.richtext/jfx.incubator.richtext.iml" filepath="$USER_HOME$/Downloads/openjfx-24.0.1_windows-x64_bin-sdk/javafx-sdk-24.0.1/src/jfx.incubator.richtext/jfx.incubator.richtext.iml" />
     </modules>
   </component>
 </project>

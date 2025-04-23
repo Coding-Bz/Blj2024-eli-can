@@ -2,12 +2,13 @@ import java.util.Scanner;
 
 public class UserPage {
 
-    protected String userPassword;
-    protected String userName;
-    Scanner scanner=new Scanner(System.in);
-    protected UserPage(){
-        this.userPassword="userPassword";
-        this.userName="userName";
+    private String userPassword;
+    private String userName;
+    Scanner scanner = new Scanner(System.in);
+
+    public UserPage(){
+        this.userPassword=userPassword;
+        this.userName=userName;
     }
 
     public String getUserName() {
