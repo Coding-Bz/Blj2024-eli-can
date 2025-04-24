@@ -1,11 +1,13 @@
 import javax.swing.*;
 import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 
 public class RegisterGUI {
         public static void main(String[] args) {
                 // Main Frame
                 JFrame frame = new JFrame("Register/Login");
-                frame.setSize(900, 500);
+                frame.setSize(900, 500); //Hintergrund
                 frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
                 frame.getContentPane().setBackground(new Color(228, 221, 177));
                 frame.setLayout(null);
@@ -14,7 +16,7 @@ public class RegisterGUI {
                 JPanel registerPanel = new JPanel();
                 registerPanel.setLayout(new BoxLayout(registerPanel, BoxLayout.Y_AXIS));
                 registerPanel.setBackground(new Color(209, 227, 187));
-                registerPanel.setBounds(600, 80, 250, 300);
+                registerPanel.setBounds(480, 0, 420, 700);
                 registerPanel.setBorder(BorderFactory.createEmptyBorder(40, 40, 40, 40));
 
                 // REGISTER Label
@@ -27,6 +29,7 @@ public class RegisterGUI {
 
                 // Username Label
                 JLabel userLabel = new JLabel("USERNAME");
+                userLabel.setFont(new Font("Arial", Font.ROMAN_BASELINE, 20));
                 userLabel.setForeground(Color.WHITE);
                 registerPanel.add(userLabel);
 
@@ -40,6 +43,7 @@ public class RegisterGUI {
 
                 // Password Label
                 JLabel passLabel = new JLabel("PASSWORD");
+                passLabel.setFont(new Font("Arial", Font.ROMAN_BASELINE, 20));
                 passLabel.setForeground(Color.WHITE);
                 registerPanel.add(passLabel);
 
@@ -61,8 +65,24 @@ public class RegisterGUI {
                 loginButton.setFont(new Font("Arial", Font.BOLD, 18));
                 loginButton.setFocusPainted(false);
                 frame.add(loginButton);
+                if (loginButton.getAutoscrolls()) {
 
-                // Show GUI
+                        System.out.println("NEIN");
+                }
+                ActionListener actionListener = new ActionListener() {
+                        @Override
+                        public void actionPerformed(ActionEvent e) {
+                                JOptionPane.showMessageDialog(null,"BUTTON!");
+                        }
+                };
+                loginButton.addActionListener(actionListener);
+                if (actionListener.equals(true)){
+                        JOptionPane.showMessageDialog(null,"BUTTONdnufiaewuo!");
+                }
+
+                        // Show GUI
+
+
                 frame.setVisible(true);
         }
 }

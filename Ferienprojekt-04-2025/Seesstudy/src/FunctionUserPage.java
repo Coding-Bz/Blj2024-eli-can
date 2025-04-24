@@ -57,7 +57,6 @@ public class FunctionUserPage {
     }
 public void settingInfostime(){
     Timetable tt=new Timetable();
-    Studytimer st=new Studytimer();
     tt.insertuser(userName, userPassword, myTimer.getMyTime());
 }
 

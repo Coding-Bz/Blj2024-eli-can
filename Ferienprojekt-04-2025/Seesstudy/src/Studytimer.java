@@ -12,16 +12,6 @@ private int myTime;
 
     }
 
-
-    public LocalTime getTime() {
-        return time;
-    }
-
-
-    public LocalTime getEndTime() {
-        return endTime;
-    }
-
     public void setEndTime(LocalTime endTime) {
         this.endTime = endTime;
     }
