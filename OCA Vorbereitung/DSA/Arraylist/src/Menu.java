@@ -43,7 +43,7 @@ private ArrayList<Library>myLibrary;
                 PrintEverything pe=new PrintEverything();
                 pe.printEverything(myLibrary);
             }
-
+            int [] array=new int [10];
         }
 
 

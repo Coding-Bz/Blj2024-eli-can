@@ -7,17 +7,17 @@ public class UserPage {
     Scanner scanner = new Scanner(System.in);
 
     public UserPage(){
-        this.userPassword=userPassword;
-        this.userName=userName;
+        this.userPassword="";
+        this.userName="";
     }
 
     public String getUserName() {
         return userName;
     }
 
-    public void setUserName() {
-        System.out.println("What should your username be?");
-        String Name=scanner.next();
+    public void setUserName(String Name) {
+        //System.out.println("What should your username be?");
+        //String Name=scanner.next();
         this.userName = Name;
     }
 
@@ -25,9 +25,9 @@ public class UserPage {
         return userPassword;
     }
 
-    public void setUserPassword() {
-        System.out.println("What should your Password be?");
-        String Password=scanner.next();
+    public void setUserPassword(String Password) {
+    //    System.out.println("What should your Password be?");
+      //  String Password=scanner.next();
         this.userPassword = Password;
     }
 }

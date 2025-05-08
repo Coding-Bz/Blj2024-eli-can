@@ -2,6 +2,7 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.util.Arrays;
 
 public class RegisterGUI {
         public static void main(String[] args) {
@@ -53,6 +54,9 @@ public class RegisterGUI {
                 passwordField.setBackground(new Color(139, 154, 110));
                 passwordField.setForeground(Color.WHITE);
                 registerPanel.add(passwordField);
+
+                String input= Arrays.toString(passwordField.getPassword());
+
 
                 // Add register panel to frame
                 frame.add(registerPanel);

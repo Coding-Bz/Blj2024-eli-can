@@ -20,7 +20,7 @@ private int myTime;
         this.time = time;
     }
 
-    public int getMyTime() {
+    public int getMyTime(LocalTime time,LocalTime endTime) {
         Duration myTime= Duration.between(time,endTime);
         int theDuration=(int)myTime.getSeconds()/60;
         return theDuration;

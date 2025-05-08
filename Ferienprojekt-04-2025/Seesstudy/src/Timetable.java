@@ -13,7 +13,6 @@ public class Timetable {
 
         try (Connection conn = cd.connect()) {
 
-            // Schritt 1: Zeit abfragen
             int currentTime = 0;
             try (PreparedStatement selectStmt = conn.prepareStatement(selectSQL)) {
                 selectStmt.setString(1, UserName);
@@ -26,7 +25,7 @@ public class Timetable {
 
 
             try (PreparedStatement updateStmt = conn.prepareStatement(updateSQL)) {
-                updateStmt.setInt(1, currentTime + Time/2);
+                updateStmt.setInt(1, currentTime + Time);
                 updateStmt.setString(2, UserName);
                 updateStmt.setString(3, Password);
                 updateStmt.executeUpdate();

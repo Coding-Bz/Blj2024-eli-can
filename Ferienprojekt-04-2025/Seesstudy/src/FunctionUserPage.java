@@ -2,6 +2,8 @@ import java.sql.SQLException;
 import java.util.Scanner;
 
 public class FunctionUserPage {
+
+
     private final UserPage up = new UserPage();
     private final userTable ut = new userTable();
     private final optionStudy os = new optionStudy();
@@ -24,7 +26,7 @@ public class FunctionUserPage {
             userChoice = scanner.nextInt();
         } while (userChoice != 1 && userChoice != 2);
 
-        switch (userChoice) {
+       /* switch (userChoice) {
 
             case 1: {
                 up.setUserName();
@@ -66,5 +68,5 @@ public void settingInfostime(){
 
     public String getUserName() {
         return userName;
-    }
-}
+    }*/
+}}
